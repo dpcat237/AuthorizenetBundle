@@ -43,7 +43,7 @@ class AuthorizenetController extends Controller
          */
         $form = $this
             ->get('form.factory')
-            ->create('paymill_view');
+            ->create('authorizenet_view');
 
         $form->handleRequest($request);
 
